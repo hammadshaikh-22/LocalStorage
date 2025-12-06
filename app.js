@@ -62,10 +62,10 @@ function signUp() {
 }
 
 function setData(){
-    var users = localStorage.getItem("USERDATA")
+    var users = localStorage.getItem("USERDATA") 
     // console.log(users)
     // console.log(JSON.parse(users))
-    userObj = JSON.parse(users)
+    userObj = JSON.parse(users) || []
 }
 
 setData()
