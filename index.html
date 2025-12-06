@@ -10,16 +10,19 @@
 </head>
 
 <body>
-    <div class="Top">
-        <div class="mainBody">
-            <h1>Sign Up</h1>
-            <label for="email">Email</label><br>
-            <input type="text" id="email"><br>
-            <label for="password">Password</label><br>
-            <input type="text" id="password"><br>
-            <button onclick="signUp()">Sign Up</button>
+    <div class="card container mx-auto p-2" style="width: 400px;">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+
+            <button class="btn btn-primary" onclick="signUp()">SignUp</button>
         </div>
-    </div>
 
 
     <script src="app.js"></script>
@@ -28,3 +31,4 @@
 
 
 </html>
+
