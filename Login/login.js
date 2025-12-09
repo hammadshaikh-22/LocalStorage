@@ -72,11 +72,11 @@ function login() {
     // console.log(userObj)
 }
 
-//function setData() {
-//    var users = localStorage.getItem("USERDATA")
-//    // console.log(users)
-//    // console.log(JSON.parse(users))
-//    userObj = JSON.parse(users) || []
-//}
+function setData() {
+    var users = localStorage.getItem("USERDATA")
+    // console.log(users)
+    // console.log(JSON.parse(users))
+    userObj = JSON.parse(users) || []
+}
 
 setData()
