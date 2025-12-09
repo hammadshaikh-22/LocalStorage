@@ -56,6 +56,7 @@ function signUp() {
             email.value = ""
             password.value = ""
             localStorage.setItem("USERDATA",JSON.stringify(userObj) )
+            window.location.href = "./login/login.html"
         }
     }
     // console.log(userObj)
